@@ -1,0 +1,54 @@
+header {
+    background-color: #3E1C33;
+    height: 144px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+.header-bar {
+    color: #fff;
+    width: 615px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-right: 119px;
+}
+.nav-a {
+    text-align: center;
+    width: 126px;
+}
+.nav-tag {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-tag:hover {
+    text-decoration: underline;
+}
+.main-image {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../img/main-image.jpg");
+    height: 696px;
+}
+.welcome {
+    width: 537px;
+    height: 127px;
+    margin-left: 103px;
+    margin-top: 417px;
+    color: #fff;
+    position: absolute;
+    font-size: 96px;
+    font-weight: 500;
+}
+.game-section {
+    background-color: #F6921D;
+    display: flex;
+    justify-content: center;
+}
+.info-section {
+    background-color: #B14623;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
