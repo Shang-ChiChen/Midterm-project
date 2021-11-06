@@ -50,5 +50,44 @@ header {
     background-color: #B14623;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+.info-content {
+    width: 250px;
+    margin: 10px;
+}
+.info-pic {
+    height: 221px;
+    width: 250px;
+}
+footer {
+    background-color: #130912;
+}
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-section-1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footer-info-head {
+    color:#fff;
+    font-weight: 700;
+}
+.footer-info {
+    color:#fff;
+    font-weight: 400;
+}
+.footer-copy {
+    color:#fff;
+    font-weight: 700;
+    margin-left: 121px;
+}
+.iconify {
+    color: #fff;
+    font-size: 30px;
 }
