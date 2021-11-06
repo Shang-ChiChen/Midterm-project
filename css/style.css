@@ -41,6 +41,16 @@ header {
     font-size: 96px;
     font-weight: 500;
 }
+
+.play {
+    color: #fff;
+    font-size: 86px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .game-section {
     background-color: #F6921D;
     display: flex;
