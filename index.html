@@ -1,44 +1,52 @@
 <htmL lang="en">
-    <head>
-        <title>Trick or Treat</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+<head>
+    <title>Trick or Treat</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <div class="container">
         <header>
             <div class="header-bar">
-                <div  class="nav-a"><a href="index.html" class="nav-tag">HOME</a></div>
-                <div  class="nav-a"><a href="products.html" class="nav-tag">PRODUCTS</a></div>
-                <div  class="nav-a"><a href="about.html" class="nav-tag">ABOUT</a></div>
-                <div  class="nav-a"><a href="#" class="nav-tag">CART</a></div>
+                <div class="nav-a"><a href="index.html" class="nav-tag">HOME</a></div>
+                <div class="nav-a"><a href="products.html" class="nav-tag">PRODUCTS</a></div>
+                <div class="nav-a"><a href="about.html" class="nav-tag">ABOUT</a></div>
+                <div class="nav-a"><a href="#" class="nav-tag">MY CART</a></div>
                 <input type="text" placeholder="Search..">
-                <span class="iconify" data-icon="akar-icons:search"></span>
+                <span class="iconify" id="search" data-icon="akar-icons:search"></span>
             </div>
-            
+
         </header>
 
-        <div  class="main-image">
-            <div class="welcome">WELCOME</div>
+        <div class="main-image">
+            <div class="welcome">WELCOME !!!</div>
         </div>
 
         <div class="game-section">
-            <div class="play">Play game to get the Halloween vibe!!<div><img style="margin-top: 30px;" src="img/Cover Photo.png"></div></div>
+            <div class="play"><div class="t1" overflow: auto;>Play this game to get the Halloween vibe!!</div><div><img style="margin-top: 30px; border-radius: 30px;"
+                        src="img/Cover Photo.png"></div>
+            </div>
             <div><iframe src="ghost.html" style="width:540px; height:950px; overflow: hidden;"></iframe></div>
         </div>
 
         <div class="info-section">
             <div class="info-content">
-                <img class="info-pic" src="img/info-pump.jpg">
-                PRODUCTS
+                <img class="info-pic" src="img/info-pump.jpg" style="border-radius: 30px;">
+                <p style="font-weight: bold; font-size: 18pt; text-align: center;">PRODUCTS</p>
+                <p style="text-align: center;">Get our products.</p>
             </div>
             <div class="info-content">
-                <img class="info-pic" src="img/about.jpg">
-                ABOUT
+                <img class="info-pic" src="img/about.jpg" style="border-radius: 30px;">
+                <p style="font-weight: bold; font-size: 18pt; text-align: center;">ABOUT</p>
+                <p style="text-align: center;">Learn more about our company.</p>
             </div>
             <div class="info-content">
-                <img class="info-pic" src="img/contact.jpg">
-                CONTACT
+                <img class="info-pic" src="img/contact.jpg" style="border-radius: 30px;">
+                <p style="font-weight: bold; font-size: 18pt; text-align: center;">CONTACT</p>
+                <p style="text-align: center;">Contact us.</p>
             </div>
         </div>
 
@@ -46,34 +54,36 @@
             <div class="footer-section">
                 <div>
                     <div class="footer-info-head">SUPPORT</div>
-                    <div class="footer-info">Product support<br>
-                        FAQs
+                    <div class="footer-info"><a class="footer-link" href="#">Product support</a><br>
+                        <a class="footer-link" href="#">FAQs</a>
                     </div>
                 </div>
                 <div>
                     <div class="footer-info-head">INFORMATION</div>
-                    <div class="footer-info">Contact<br>
-                        Privacy Policy<br>
-                        Accessibility Policy
+                    <div class="footer-info"><a class="footer-link" href="#">Contact</a><br>
+                        <a class="footer-link" href="#">Privacy Policy</a><br>
+                        <a class="footer-link" href="#">Accessibility Policy</a>
                     </div>
                 </div>
                 <div>
-                    <div class="footer-info-head">ABOUT BRANDY</div>
-                    <div class="footer-info">News & Events<br>
-                        Investors
+                    <div class="footer-info-head"><a href="#">ABOUT US</a></div>
+                    <div class="footer-info"><a class="footer-link"href="#">News & Events</a><br>
+                        <a class="footer-link" href="#">Investors</a>
                     </div>
                 </div>
             </div>
 
             <div class="footer-section-1">
-                <div class="footer-copy">copyright 2021 WEBSITE BY ME</div>
-                <div style="margin-right: 158px">
-                    <span class="iconify" data-icon="brandico:facebook-rect"></span>
-                    <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
-                    <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
-                    <span class="iconify" data-icon="akar-icons:youtube-fill"></span>
+                <div class="footer-copy">copyright© 2021 WEBSITE BY Us</div>
+                <div class="icons" style="margin-right: 158px">
+                    <a href="#"><span class="iconify" data-icon="brandico:facebook-rect"></span></a>
+                    <a href="#"><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a>
+                    <a href="#"><span class="iconify" data-icon="akar-icons:twitter-fill"></span></a>
+                    <a href="#"><span class="iconify" data-icon="akar-icons:youtube-fill"></span></a>
                 </div>
             </div>
         </footer>
-    </body>
+    </div>
+</body>
+
 </htmL>

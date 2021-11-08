@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration:none;
+    border: 0;
+    
+}
 header {
-    background-color: #3E1C33;
+    background-color: #2D1F30;
     height: 144px;
     display: flex;
     flex-direction: row-reverse;
@@ -14,6 +26,14 @@ header {
     margin-bottom: 40px;
     margin-right: 119px;
 }
+
+.t1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 72pt;
+    padding:30px 0 16px;
+}
+
 .nav-a {
     text-align: center;
     width: 126px;
@@ -32,7 +52,6 @@ header {
     height: 696px;
 }
 .welcome {
-    width: 537px;
     height: 127px;
     margin-left: 103px;
     margin-top: 417px;
@@ -40,6 +59,7 @@ header {
     position: absolute;
     font-size: 96px;
     font-weight: 500;
+    font-weight: Bold;
 }
 
 .play {
@@ -50,6 +70,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 .game-section {
     background-color: #F6921D;
@@ -57,25 +78,52 @@ header {
     justify-content: center;
 }
 .info-section {
-    background-color: #B14623;
+    background-color: #FF6801;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+.content{
+    background-color: #d6cbbf;
+    display: flex;
+}
+.about{
+    background-color: #F6921D;
+    flex-direction: column;
+}
+.side-bar{
+    margin:90px;
+    border-radius: 30px;
+    background-color: #F6921D;
+}
+.content div.right-part{
+    background-color: #F6921D;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    min-height: 1280px;
+}
 .info-content {
     width: 250px;
-    margin: 10px;
+    margin: 30px 10px;
 }
 .info-pic {
     height: 221px;
     width: 250px;
 }
+.info-pic:hover {
+    box-shadow: rgba(30, 20, 31, 0.24) 0px 5px 10px;
+}
 footer {
-    background-color: #130912;
+    background-color: #1E141F;
 }
 .footer-section {
+    padding-top:30px;
+    padding-bottom:30px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
 }
 .footer-section-1 {
@@ -85,6 +133,7 @@ footer {
 }
 
 .footer-info-head {
+    margin-top: 10px;
     color:#fff;
     font-weight: 700;
 }
@@ -100,4 +149,103 @@ footer {
 .iconify {
     color: #fff;
     font-size: 30px;
+}
+.iconify:hover {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 30px;
+}
+.first-part{
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+}
+.google-map{
+    width: 1020px;
+    height: 630px;
+    border-radius: 30px;
+}
+
+.store-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 30px;
+    width: 320px;
+    height: 448px;
+    background-color: #2D1F30;
+    margin: 15px 15px 60px;
+    text-align: center;
+}
+.store:hover{
+    border-radius: 30px;
+    width: 320px;
+    height: 448px;
+    background-color: #2D1F30;
+    margin: 15px 15px 60px;
+    box-shadow: rgba(30, 20, 31, 0.24) 0px 10px 15px;
+}
+.profile{
+    background-color: #2D1F30;
+    border-color: white;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+}
+.products-list{
+    width: 720px;
+}
+.items li{
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #2D1F30;
+    list-style-type: none;
+    width: 320px;
+    height: 320px;
+    float: left;
+}
+.items li a{
+    text-align: center;
+}
+.add-to-cart{
+    height: 320px; width: 320px; position:absolute; background-color:rgba(246, 146, 29, 0.6); display: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size:36pt;
+    font-weight: bold;
+    text-shadow: #2D1F30 0.1em 0.1em 0.2em;
+}
+.items li:hover .add-to-cart{
+    display: unset;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    height:200px;
+}
+.item-name{
+    text-align: center;
+    font-size:28pt;
+    font-weight:500;
+    margin-top:10px;
+}
+.items li:hover ~.add-to-cart{
+    background-color:#50ff00;
+}
+.footer-link:hover{
+    opacity: 0.6;
+}
+
+#search{
+    height: 21px;
 }
