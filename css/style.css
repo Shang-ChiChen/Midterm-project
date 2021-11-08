@@ -103,6 +103,7 @@ header {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+    min-height: 1280px;
 }
 .info-content {
     width: 250px;
