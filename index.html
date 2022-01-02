@@ -3,52 +3,92 @@
 <head>
     <title>Trick or Treat</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 
 <body>
-    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
-    <div class="container">
-        <header>
-            <div class="header-bar">
-                <div class="nav-a"><a href="index.html" class="nav-tag">HOME</a></div>
-                <div class="nav-a"><a href="products.html" class="nav-tag">PRODUCTS</a></div>
-                <div class="nav-a"><a href="about.html" class="nav-tag">ABOUT</a></div>
-                <div class="nav-a"><a href="#" class="nav-tag">MY CART</a></div>
-                <input type="text" placeholder="Search..">
-                <span class="iconify" id="search" data-icon="akar-icons:search"></span>
+    
+    
+    
+    
+    <div class="container-fluid">
+        
+
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <a class="navbar-brand" href="index.html">Trick or Treat</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
             </div>
+        </nav>   
+        
 
-        </header>
-
+            
+        
         <div class="main-image">
             <div class="welcome">WELCOME !!!</div>
         </div>
 
-        <div class="game-section">
-            <div class="play"><div class="t1" overflow: auto;>Play this game to get the Halloween vibe!!</div><div><img style="margin-top: 30px; border-radius: 30px;"
-                        src="img/Cover Photo.png"></div>
+        <div class="game-section row no-gutters">
+            <div class="col-md-6 t1 align-self-center">
+                Play this game to get the Halloween vibe!!<br><br>
+                
+                <a href="ghost.html" class="btn btn-outline-dark btn-lg" role="button">Play!</a><br><br>
+                
+                <span style="font-size: 2vw;">Play the reaper here online for free.<br>
+                    Click on the screen.
+                    Fly the reaper as far as you can without hitting a pipe.And share your highest score!!</span>
+            
             </div>
-            <div><iframe src="ghost.html" style="width:540px; height:950px; overflow: hidden;"></iframe></div>
+            <div class="col-md-6 text-center">
+                <img style="border-radius: 30px; width: 44vw; padding: 1vw;" src="img/Cover Photo.png" class="img-center">
+            </div>
         </div>
+        
+        
 
-        <div class="info-section">
-            <div class="info-content">
-                <img class="info-pic" src="img/info-pump.jpg" style="border-radius: 30px;">
+        <div class="row info-section no-gutters justify-content-around">
+            <div class="col-md-4 text-center">
+                <a href="products.html"><img class="info-pic " src="img/info-pump.jpg" style="border-radius: 30px; padding-top: 1vw;"></a>
                 <p style="font-weight: bold; font-size: 18pt; text-align: center;">PRODUCTS</p>
                 <p style="text-align: center;">Get our products.</p>
             </div>
-            <div class="info-content">
-                <img class="info-pic" src="img/about.jpg" style="border-radius: 30px;">
+            <div class="col-md-4 text-center">
+                <a href="about.html"><img class="img-fluid info-pic" src="img/about.jpg" style="border-radius: 30px; padding-top: 1vw;"></a>
                 <p style="font-weight: bold; font-size: 18pt; text-align: center;">ABOUT</p>
                 <p style="text-align: center;">Learn more about our company.</p>
             </div>
-            <div class="info-content">
-                <img class="info-pic" src="img/contact.jpg" style="border-radius: 30px;">
+            <div class="col-md-4 text-center">
+                <a href="#"><img class="iimg-fluid info-pic" src="img/contact.jpg" style="border-radius: 30px; padding-top: 1vw;"></a>
                 <p style="font-weight: bold; font-size: 18pt; text-align: center;">CONTACT</p>
                 <p style="text-align: center;">Contact us.</p>
             </div>
         </div>
+
+        
 
         <footer>
             <div class="footer-section">
@@ -66,15 +106,17 @@
                     </div>
                 </div>
                 <div>
-                    <div class="footer-info-head"><a href="#">ABOUT US</a></div>
+                    <div class="footer-info-head">ABOUT US</div>
                     <div class="footer-info"><a class="footer-link"href="#">News & Events</a><br>
                         <a class="footer-link" href="#">Investors</a>
                     </div>
                 </div>
             </div>
 
-            <div class="footer-section-1">
+            <div class="d-flex justify-content-between">
                 <div class="footer-copy">copyright© 2021 WEBSITE BY Us</div>
+                
+                
                 <div class="icons" style="margin-right: 158px">
                     <a href="#"><span class="iconify" data-icon="brandico:facebook-rect"></span></a>
                     <a href="#"><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a>
@@ -84,6 +126,14 @@
             </div>
         </footer>
     </div>
+
+    
+
+    <script src="js/jQurey.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+            
 </body>
 
 </htmL>
