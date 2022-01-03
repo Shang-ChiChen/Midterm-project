@@ -1,37 +1,92 @@
 <htmL>
     <head>
         <title></title>
-        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <script src="js/script.js"></script>
         <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
-        <div class="container">
-            <header>
-                <div class="header-bar">
-                    <div  class="nav-a"><a href="index.html" class="nav-tag">HOME</a></div>
-                    <div  class="nav-a"><a href="products.html" class="nav-tag">PRODUCTS</a></div>
-                    <div  class="nav-a"><a href="about.html" class="nav-tag">ABOUT</a></div>
-                    <div  class="nav-a"><a href="#" class="nav-tag">MY CART</a></div>
-                    <input type="text" placeholder="Search..">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-Search"><path d="M21 21l-4.486-4.494M19 10.5a8.5 8.5 0 1 1-17 0 8.5 8.5 0 0 1 17 0z"/></svg>
-                </div>
-                
-            </header>
-            <div class="content">
-                <div class="right-part">
-                    <div class="products-list">
-                        <div class="t1">OUR PRODUCTS</div>
-                        <ul class="items">
-                            <li><a href="#"><div class="add-to-cart"><br>ADD<br>TO<br>CART</div><div class="item i1"><img class="item-img" src="img/item1.png"></div><div class="item-name">Pumpkin Lantern<br>4.99$</div></a></li>
-                            <li><a href="#"><div class="add-to-cart"><br>ADD<br>TO<br>CART</div><div class="item i2"><img class="item-img" src="img/item2.png"></div><div class="item-name">Candle<br>3.99$</div></a></li>
-                            <li><a href="#"><div class="add-to-cart"><br>ADD<br>TO<br>CART</div><div class="item i3"><img class="item-img" src="img/item3.png"></div><div class="item-name">Zombie head<br>2.99$</div></a></li>
-                            <li><a href="#"><div class="add-to-cart"><br>ADD<br>TO<br>CART</div><div class="item i4"><img class="item-img" src="img/item4.png"></div><div class="item-name">Candy<br>4.99$</div></a></li>
-                            <li><a href="#"><div class="add-to-cart"><br>ADD<br>TO<br>CART</div><div class="item i5"><img class="item-img" src="img/item5.png"></div><div class="item-name">Spider Web<br>1.99$</div></a></li>
-                            <li><a href="#"><div class="add-to-cart"><br>ADD<br>TO<br>CART</div><div class="item i6"><img class="item-img" src="img/item6.png"></div><div class="item-name">Devil Trident<br>3.99$</div></a></li>
-                        </ul>
+        <nav id="primary-navigation" class="primary-navigation">
+            <ul class="site group">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="products.html">Products</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <header id="main-header" class="main-header">
+            <div class="bar">
+                <div class="container">
+                    <div class="box actions">
+                        <a href="#" class="menu">
+                            <span class="line top"></span>
+                            <span class="line middle"></span>
+                            <span class="line bottom"></span>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="index.html"><img src="img/logo.png" alt="" height="32" class="logo" ></a>
+                    </div>
+                    <div class="box actions">
+                       <div class = 'search-box'>
+                           <input class = "search-text" type="text" placeholder = "Search Anything">
+                                <a href="#" class = "search-btn">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                                <div class="dropdown-content">
+                                    <input class = "search-text" type="text" placeholder = "Search Anything">
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </header>
+        <div class="content">
+            <div class="row no-gutters justify-content-around">
+                <div class="col-md-12 t1">OUR PRODUCTS</div>
+                <div class=" col-lg-4 col-md-6 boox">
+                    <a href="#"><img class="info-pic " src="img/item1.png" style="border-radius: 30px; padding-top: 1vw; aspect-ratio:1/1;"></a>
+                    <p style="font-weight: bold; font-size: 18pt; text-align: center;">Pumpkin</p>
+                    <p style="text-align: center;">4.99$</p>
+                </div>
+                <div class="col-lg-4 col-md-6 boox">
+                    <a href="#"><img class="info-pic" src="img/item2.png" style="border-radius: 30px; padding-top: 1vw;aspect-ratio:1/1"></a>
+                    <p style="font-weight: bold; font-size: 18pt; text-align: center;">Candle</p>
+                    <p style="text-align: center;">3.99$</p>
+                </div>
+                <div class=" col-lg-4 col-md-6 boox">
+                    <a href="#"><img class="info-pic" src="img/item3.png" style="border-radius: 30px; padding-top: 1vw;aspect-ratio:1/1"></a>
+                    <p style="font-weight: bold; font-size: 18pt; text-align: center;">Zombie head</p>
+                    <p style="text-align: center;">2.99$</p>
+                </div>
+                <div class=" col-lg-4 col-md-6 boox">
+                    <a href="#"><img class="info-pic" src="img/item4.png" style="border-radius: 30px; padding-top: 1vw;aspect-ratio:1/1"></a>
+                    <p style="font-weight: bold; font-size: 18pt; text-align: center;">Candy</p>
+                    <p style="text-align: center;">4.99$</p>
+                </div>
+                <div class=" col-lg-4 col-md-6 boox">
+                    <a href="#"><img class="info-pic" src="img/item5.png" style="border-radius: 30px; padding-top: 1vw;aspect-ratio:1/1"></a>
+                    <p style="font-weight: bold; font-size: 18pt; text-align: center;">Spider Web</p>
+                    <p style="text-align: center;">1.99$</p>
+                </div>
+                <div class="col-lg-4 col-md-6 boox">
+                    <a href="#"><img class="info-pic" src="img/item6.png" style="border-radius: 30px; padding-top: 1vw;aspect-ratio:1/1"></a>
+                    <p style="font-weight: bold; font-size: 18pt; text-align: center;">Devil Trident</p>
+                    <p style="text-align: center;">3.99$</p>
+                </div>
+            </div>
+        </div>
             <footer>
                 <div class="footer-section">
                     <div>
@@ -48,15 +103,17 @@
                         </div>
                     </div>
                     <div>
-                        <div class="footer-info-head"><a href="#">ABOUT US</a></div>
+                        <div class="footer-info-head">ABOUT US</div>
                         <div class="footer-info"><a class="footer-link"href="#">News & Events</a><br>
                             <a class="footer-link" href="#">Investors</a>
                         </div>
                     </div>
                 </div>
-    
-                <div class="footer-section-1">
+        
+                <div class="d-flex justify-content-between">
                     <div class="footer-copy">copyright© 2021 WEBSITE BY Us</div>
+                    
+                    
                     <div class="icons" style="margin-right: 158px">
                         <a href="#"><span class="iconify" data-icon="brandico:facebook-rect"></span></a>
                         <a href="#"><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a>
@@ -65,7 +122,9 @@
                     </div>
                 </div>
             </footer>
-        </div>
+            <div id="jsScroll" class="scroll" onclick="scrollToTop();">
+                <i class="fa fa-angle-up"></i>
+              </div>
         
     </body>
 </htmL>
