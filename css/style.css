@@ -233,11 +233,6 @@ footer {
     padding-bottom: 30px;
 }
 .store:hover{
-    border-radius: 30px;
-    width: 320px;
-    height: 448px;
-    background-color: #2D1F30;
-    margin: 15px 15px 60px;
     box-shadow: rgba(30, 20, 31, 0.24) 0px 10px 15px;
     transform: scale(1.1);
     transition: all 1s;
