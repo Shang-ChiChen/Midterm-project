@@ -6,7 +6,7 @@ $(document).ready(function(){
         $('.primary-navigation').toggleClass('active');
     });
 });
-limit = 800;  /* scrolltop value when opacity should be 0 */
+limit = 600;  /* scrolltop value when opacity should be 0 */
 
 $(window).on('scroll', function() {
 var st = $(this).scrollTop();
